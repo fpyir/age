@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: "Roboto";
+  background: #2E3235;
+  width: 100%;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h3, p {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #636363;
+}
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  font-size: 1rem;
+  color: white;
+  display: inline;
+  width: 200px;
+}
+
+input:focus {
+  outline: none;
+}
+
+img {
+  display: block;
+  width: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: right;
+}
+
+.input-form {
+  width: 240px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.counter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
